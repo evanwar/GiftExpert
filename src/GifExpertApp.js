@@ -1,11 +1,12 @@
 import { useState } from "react";
-import { AddCategory } from "./components/AddCategory";
-import { GifGrid } from "./components/GifGrid";
-
-const GifExpertApp = () => {
+import AddCategory from "./components/AddCategory";
+import GifGrid from "./components/GifGrid";
 
 
-    const [categories, setCategories] = useState(['Mario Kart']);
+const GifExpertApp = ({ defaultCategories = [] }) => {
+
+
+    const [categories, setCategories] = useState(defaultCategories);
 
 
     return (
@@ -26,5 +27,7 @@ const GifExpertApp = () => {
     );
 
 };
+
+
 
 export default GifExpertApp;

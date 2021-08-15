@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Unit Test GridItem should equal argument 1`] = `
+<div
+  className="card  animate__animated animate__fadeInLeft"
+>
+  <img
+    alt="Overwatch"
+    src="https://www.dzoom.org.es/wp-content/uploads/2010/09/mirada-ojos-encuadre-primer-plano-sexy-810x540.jpg"
+  />
+  <p>
+    Overwatch
+  </p>
+</div>
+`;

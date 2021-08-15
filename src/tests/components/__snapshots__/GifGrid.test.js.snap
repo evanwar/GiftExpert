@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid Load template 1`] = `
+<Fragment>
+  <h3>
+    Mario kart
+  </h3>
+  Cargando...
+  <div
+    className="card-grid"
+  >
+    <ol />
+  </div>
+</Fragment>
+`;
+
+exports[`Grid debe de mostrar items cuando se cargan imagenes 1`] = `
+<Fragment>
+  <h3>
+    Mario kart
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <ol>
+      <GifGridItem
+        id="ABCD"
+        key="ABCD"
+        title="Image"
+        url="https:www.google.com/cosa.jpg"
+      />
+      <GifGridItem
+        id="ABC2"
+        key="ABC2"
+        title="Image"
+        url="https:www.google.com/cosa.jpg"
+      />
+    </ol>
+  </div>
+</Fragment>
+`;

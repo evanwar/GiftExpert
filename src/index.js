@@ -6,7 +6,7 @@ import './index.css';
 
 
 ReactDOM.render(
-  <GifExpertApp />,
+  <GifExpertApp defaultCategories={['Overwatch']}/>,
   document.getElementById('root')
 );
 
